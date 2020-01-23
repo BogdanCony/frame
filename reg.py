@@ -1,4 +1,4 @@
-#v2_stable
+#v3_stable
 # вход
 print("login")
 log = input ("login: ")
@@ -59,13 +59,34 @@ if sys == True:
 	if fr1 == "yes":
 		pass1 = input ("password")
 		if pass1 == "ConyCony":
+		frame = True
+		if frame == True:
 			print("{[framework is loading...]}")
 			time.sleep(2)
 			print("welcome!")
+			print("hello " + log)
+			print("If you want exit print 'exit' ")
+			quf = input(quation )
+			if quf == "exit":
+				exit()
+			elif quf == "hello":
+				print("hello " + log )
+			elif quf == "How are you?":
+				print("Im fine, and you?")
+				ge = input
+				if ge == good:
+					print("Its good!")
+					elif ge == "bad"
+					print("its bad!")
+				if quf == "quit":
+					frame = False
+					print("its all for now,  this is 3v so.... ") 
+					exit() 
+				
+					
+			else:
+				print("what? ") 
+			
 
 
 
-
-
-
-   
